@@ -1,0 +1,38 @@
+
+/*Gallery 18*/
+.topics
+{
+    margin: auto;
+    padding-top: 100px;
+    width: 80%;
+    height: auto;
+    text-decoration: none;
+    display: block;
+    justify-content: space-between;
+    
+}
+.topics .images
+{
+    margin: auto;
+    color: white;
+    border-bottom: orange solid 2px ;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+.topics .img1
+{
+    padding: 20px;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    /*margin: 10px;*/
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 15px;
+    place-items: center center;
+}
+.topics .img1  img
+{
+    height: 250px;
+}

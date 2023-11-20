@@ -1,0 +1,104 @@
+/* EVENTS */
+.event
+{   
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: black;
+    padding-top:10px;   
+}
+.event .box1
+{   
+    text-align: center;
+    width: 65%;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    
+    font-family: 'Mukta Malar', sans-serif;
+    color:black;
+    transition-delay: 0.1s;
+    border-radius: 25px;
+
+}
+.event .box1 h2
+{
+    background-color: transparent;
+    margin: auto;
+    font-size: 25px;
+}
+.event .box1 .eve-date
+{   
+    font-family: 'Mukta Malar', sans-serif;
+    border-right: #181818 solid 2px;
+    color: #181818;
+    font-weight: 900;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 20%;
+    height: 100%;
+}
+.event .box1 .more{
+    border: #ff7f00 solid 1px;
+    padding: 5px;
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+    border-radius: 25px;
+}
+.event .box1 .more:hover{
+    background-color: white;
+}
+.event .box1:hover
+{   
+    color: white;
+    background: linear-gradient(90deg,#ff7f00 0%,#e4a51d 74%);
+    box-shadow: #ff7f00 0px 0px 10px;
+    transform: scale(1.05);
+}
+
+@media (max-width:600px){
+    .event .box1{
+        display: block;
+        width: 90%;
+        
+    }
+    .event .box1 .eve-date{
+        border-right: none;
+    }
+    .event .box1 .more{
+        border: none;
+        background-color: #ff7f00;
+        border-radius: 25px;
+    }
+    .event .box1 .eve-date{
+        display:inline;
+    }
+    
+}
+/*small devices- potraite tablets,large phones*/
+@media (max-width:768px){
+    .event .box1{
+        display: block;
+        width: 90%;
+    }
+    .event .box1 .eve-date{
+        border-right: none;
+    }
+    .event .box1 .more{
+        border: none;
+        background-color: #ff7f00;
+        border-radius: 25px;
+    }
+    .event .box1 .eve-date{
+        display:inline;
+    }
+}

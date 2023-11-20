@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="style_eve_card.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<!--tamil font-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@800&display=swap" rel="stylesheet">
+	 <!--english font-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+		<button class="nav-btn">
+			<span></span>
+			<span></span>
+			<span></span>
+		</button>
+		<h1 class="logo"><img src="images/logo.png"><span><span>SRM</span> பாரிவேந்தர் மாணவர் தமிழ்மன்றம்</span> </h1>
+		<ul class="nav-itm hide">
+			<li><a href="index.html">முகப்பு</a></li>
+			<li><a href="about_us.html">எங்களைப் பற்றி </a></li>
+			<li><a class="active" href="events.html">நிகழ்வுகள் </a></li>
+			<li><a href="contactus.html">தொடர்பு </a></li>
+			<!--<li><a href="#">பேனாமுனை </a></li>-->
+		</ul>
+	</div>
+	<div class="eve_card">
+        <div id="card1"><h4>ஏப்ரல் 17 அன்று செங்கல்பட்டு அரசு சிறுவர் சீர்திருத்தப்பள்ளியில்  நடைபெற்ற மாணவர் திறன் மேம்பாட்டு நிகழ்ச்சி</h4>
+		<p>எஸ்.ஆர்.எம். பாரிவேந்தர் மாணவர் தமிழ் மன்றம் மற்றும் மாணவர் திறன் மேம்பாட்டுத்துறை இணைந்து செங்கல்பட்டிலுள்ள அரசினர் சிறுவர் சீர்திருத்த பள்ளியில் மாணவர்களுக்கான கவிதை, கட்டுரை, ஓவியம் மற்றும் பேச்சுப் போட்டிகள் நடத்தி வெற்றிப் பெற்றவர்களுக்கு  பரிசுகள் மற்றும் சான்றிதழ்களை வழங்கியதோடு சீர்திருத்தப் பள்ளி மாணவர்களுக்கு விழிப்புணர்வு பேச்சு வழங்கப்பட்டது.</p>
+		</div>
+		
+	</div>
+	<script>
+        document.querySelector(".nav-btn").onclick=function(){
+            document.querySelector(".nav-itm").classList.toggle("hide");
+        }
+    </script>
+</body>
+</html>
